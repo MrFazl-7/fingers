@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.maincontainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(69, 90, 250);
+}
+
+@-webkit-keyframes finger {
+  from {
+    padding: 1rem 0rem;
+    height: 14rem;
+    margin-bottom: 0px;
+  }
+  to {
+    padding: 0rem 0rem 2rem 0rem;
+    height: 12rem;
+    margin-bottom: 60px;
+  }
+}
+
+@keyframes finger {
+  from {
+    padding: 1rem 0rem;
+    height: 14rem;
+    margin-bottom: 0px;
+  }
+  to {
+    padding: 0rem 0rem 2rem 0rem;
+    height: 12rem;
+    margin-bottom: 60px;
+  }
+}
+@-webkit-keyframes finger2 {
+  from {
+    padding: 1rem 0rem;
+    height: 16rem;
+    margin-bottom: 0px;
+  }
+  to {
+    padding: 0rem 0rem 2rem 0rem;
+    height: 14rem;
+    margin-bottom: 60px;
+  }
+}
+@keyframes finger2 {
+  from {
+    padding: 1rem 0rem;
+    height: 16rem;
+    margin-bottom: 0px;
+  }
+  to {
+    padding: 0rem 0rem 2rem 0rem;
+    height: 14rem;
+    margin-bottom: 60px;
+  }
+}
+@-webkit-keyframes finger3 {
+  from {
+    padding: 1rem 0rem;
+    height: 18rem;
+    margin-bottom: 0px;
+  }
+  to {
+    padding: 0rem 0rem 2rem 0rem;
+    height: 16rem;
+    margin-bottom: 60px;
+  }
+}
+@keyframes finger3 {
+  from {
+    padding: 1rem 0rem;
+    height: 18rem;
+    margin-bottom: 0px;
+  }
+  to {
+    padding: 0rem 0rem 2rem 0rem;
+    height: 16rem;
+    margin-bottom: 60px;
+  }
+}
+@-webkit-keyframes finger4 {
+  from {
+    padding: 1rem 0rem;
+    height: 15rem;
+    margin-bottom: 0px;
+  }
+  to {
+    padding: 0rem 0rem 2rem 0rem;
+    height: 13rem;
+    margin-bottom: 60px;
+  }
+}
+@keyframes finger4 {
+  from {
+    padding: 1rem 0rem;
+    height: 15rem;
+    margin-bottom: 0px;
+  }
+  to {
+    padding: 0rem 0rem 2rem 0rem;
+    height: 13rem;
+    margin-bottom: 60px;
+  }
+}
+@-webkit-keyframes finger5 {
+  from {
+    top: 8rem;
+  }
+  to {
+    top: 6rem;
+  }
+}
+@keyframes finger5 {
+  from {
+    top: 8rem;
+  }
+  to {
+    top: 6rem;
+  }
+}
+.fingers {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.finger {
+  width: 4rem;
+  height: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 6rem;
+  left: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem 0rem;
+  -webkit-animation-name: finger;
+          animation-name: finger;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+.finger .wrinkles {
+  width: 100%;
+  height: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.finger .wrinkles .wrinkle {
+  width: 2.5rem;
+  height: 5px;
+  background-color: blue;
+  border-radius: 5px;
+}
+.finger .nail {
+  width: 3rem;
+  height: 2.5rem;
+  background-color: blue;
+  border-radius: 1rem 1rem 0.5rem 0.5rem;
+}
+
+.finger2 {
+  width: 4rem;
+  height: 16rem;
+  top: 5rem;
+  left: 6.5rem;
+  -webkit-animation-name: finger2;
+          animation-name: finger2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.finger3 {
+  width: 4rem;
+  height: 18rem;
+  top: 4rem;
+  left: 11rem;
+  -webkit-animation-name: finger3;
+          animation-name: finger3;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  animation-duration: 1s;
+}
+
+.finger4 {
+  width: 4rem;
+  height: 15rem;
+  top: 4.5rem;
+  left: 15.5rem;
+  -webkit-animation-name: finger4;
+          animation-name: finger4;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+  animation-duration: 1s;
+}
+
+.finger5 {
+  width: 8rem;
+  height: 6rem;
+  background-color: white;
+  border-radius: 0rem 1rem 5rem 0rem;
+  position: absolute;
+  top: 8rem;
+  left: 20rem;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-name: finger5;
+          animation-name: finger5;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}/*# sourceMappingURL=main.css.map */
